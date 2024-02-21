@@ -1,0 +1,75 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "types": [
+      "node",
+      "kakao.maps.d.ts"
+    ],
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "sourceMap": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "pretty": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    // "typeRoots": [
+    //     "./src",
+    // ],
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@contexts/*": [
+        "./app/contexts/*"
+      ],
+      "@hooks/*": [
+        "./app/hooks/*"
+      ],
+      "@images/*": [
+        "./app/images/*"
+      ],
+      "@model/*": [
+        "./app/models/*"
+      ],
+      "@services/*": [
+        "./app/services/*"
+      ],
+      "@type/*": [
+        "./app/types/*"
+      ],
+      "@utils/*": [
+        "./app/utils/*"
+      ],
+      "@pages/*": [
+        "./app/pages/*"
+      ],
+      "@components/*": [
+        "./app/components/*"
+      ],
+      "@binding-model/*": [
+        "./app/binding-model/*"
+      ],
+      "@config/*": [
+        "./app/config/*"
+      ],
+      "@statics/*": [
+        "./app/statics/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "node",
+    "./src/dist"
+  ]
+}
